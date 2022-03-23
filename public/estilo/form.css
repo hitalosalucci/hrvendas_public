@@ -1,0 +1,70 @@
+/* objetos disabled */
+*:disabled{
+    cursor: not-allowed;
+}
+
+/*Icones nos inputs*/
+.left-icon .form-control {
+    padding-left: 2.375rem;
+}
+
+.left-icon .icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/*Icones nos cards*/
+.icon-card-cliente{
+    position:absolute;   
+    color: #174578;
+    font-size: 55px;
+    left: 87%;
+    top: 2px;
+}
+
+.icon-card-pagamento{
+    position:absolute;
+    left:80%;
+    top: 69%;
+    font-size: 60px;
+    color: #174578af;
+}
+
+/*Icones nos para dispositivos ate 1024 largura*/
+@media only screen and (max-width: 1024px) {
+ /* css aqui */
+}
+
+/*Icones nos para dispositivos ate 720px largura*/
+@media only screen and (max-width: 720px) {
+    /* css aqui */
+}
+
+
+/*spans valores*/
+#valorTotalVenda{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #174578;
+}
+
+#valorTrocoMetodo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #17784b;
+}
+
+
+.page-footer{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    background-color: #cacaca;
+}

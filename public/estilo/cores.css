@@ -1,0 +1,110 @@
+.tema-bg-light{
+    background-color: #E3E9EF;
+    color: #000000;
+}
+
+.btn-tema-primary{ 
+    border-color: #174578;
+    background-color: #174578;
+    color: #ffffff;
+}
+
+.btn-tema-primary:hover {
+    color: #ffffff;
+}
+
+.btn-tema-primary:hover:not(:disabled){ 
+    border-color: #113459;
+    background-color: #113459;
+}
+
+.btn-tema-secondary{ 
+    border-color: #63a4ff;
+    background-color: #63a4ff;
+    color: #ffffff;
+}
+
+.btn-tema-secondary:hover{ 
+    border-color: #3b8cfd;
+    background-color: #3b8cfd;
+    color: #ffffff;
+}
+
+.btn-outline-tema-secondary{
+    color:#007bff;
+    border-color:#63a4ff;
+}
+
+.btn-outline-tema-secondary:hover{
+    color:#fff;
+    background-color:#63a4ff;
+    border-color:#63a4ff;
+}
+
+
+.bg-tema-primary{
+    background-color: #174578;
+    color: #ffffff;
+}
+
+.bg-tema-secondary{
+    background-color: #3b8cfd;
+    color: #ffffff;
+}
+
+.bg-tema-light{
+    background-color: #dfdfdf;
+    color: #000000;
+}
+
+.btn-outline-tema-primary {
+    color: #174578;
+    border-color: #174578;
+}
+
+.btn-outline-tema-primary:hover {
+    color: #fff;
+    background-color: #174578;
+    border-color: #174578;
+}
+
+.btn-outline-tema-primary:focus, .btn-outline-tema-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-tema-primary.disabled, .btn-outline-tema-primary:disabled {
+    color: #174578;
+    background-color: transparent;
+}
+
+.btn-outline-tema-primary:not(:disabled):not(.disabled):active, .btn-outline-tema-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-tema-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #174578;
+    border-color: #174578;
+}
+
+.btn-outline-tema-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-tema-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-tema-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.text-tema-primary {
+    color: #174578;
+}
+
+.text-tema-success {
+    color: #17784b;
+}
+
+.btn-icon-tema-primary {
+    color: #174578;
+}
+
+.btn-icon-tema-primary:hover {
+    color: #113459;
+}
+
+.shadow {
+    box-shadow: 0 0 1rem rgba(0,0,0,.15) !important;
+}

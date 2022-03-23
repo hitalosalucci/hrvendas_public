@@ -1,0 +1,99 @@
+body {
+    font-size:11pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome-empresa {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+}
+
+.dados-empresa {
+    text-transform: uppercase;
+    font-size: 9pt;
+
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.coluna-1 {
+    display: inline-block;
+}
+
+.coluna-2 {
+    float: right;
+}
+
+.coluna-right {
+    float: right;
+}
+
+.margem-y {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.margem-y-g {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.descricao-item-pedido {
+    font-size: 12pt;
+}
+
+.observacao {
+    margin-left: 0.2em;
+}
+
+.margem {
+    margin-left: 2em;
+}
+
+.pagamento {
+    margin-top: 1em;
+}
+
+.coluna-pagamento-1 {
+    float: left;
+    width: 50%;
+}
+
+.coluna-pagamento-2 {
+    text-align: right;
+}
+
+.coluna-pagamento-3 {
+    float: right;
+}
+
+.ordem-pedido {
+    font-size: 16pt;
+}
+
+.destaque {
+    border: 1px solid black;
+    border-radius: 0.4em;
+    padding: 0.1em;
+}
+
+.creditos {
+    font-size: 9pt;
+}
+
+.tracejada{
+    border: 1px dotted #000;
+    border-style: none none dashed;
+    }

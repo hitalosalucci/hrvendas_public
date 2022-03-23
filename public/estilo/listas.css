@@ -1,0 +1,7 @@
+.linha-tabela{
+    font-size: 0.9rem;
+    cursor: default;
+}
+.linha-tabela:hover{
+    background-color: #ECECEC;
+}

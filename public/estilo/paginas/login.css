@@ -1,0 +1,121 @@
+/*
+css para a página de login
+*/
+
+.fundo{
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(130deg, rgba(22,76,164,1) 17%, rgba(51,99,179,1) 44%, rgba(67,150,208,1) 84%);
+}
+
+.img-logo img{
+    position: relative;
+    width: 350px;
+    margin: 0;
+}
+
+.texto-vendas{
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: #4377D0;
+}
+
+.box-login{
+    margin-top: 70px; 
+    padding: 30px;
+    width: 100%;
+    min-height: 60%;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.55);
+    background-color: #FFF;
+}
+
+input{
+    border: 1px solid #cecece;
+    outline: none;
+    color: #0f0f0f;
+    font-size: 18px;
+    line-height: 50px;
+    
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 0 10px 0 50px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.icone-input{
+    position: absolute;
+    margin-top: -65px;
+    z-index: 2;
+    display: block;
+    font-size: 20px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    color: #b4b4b4;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+input:focus + .icone-input{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    font-size: 20px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #4396D0;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+input:focus{
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(67,149,208,0.7);
+    -moz-box-shadow: 0px 0px 12px 1px rgba(67,149,208,0.7);
+    box-shadow: 0px 0px 12px 1px rgba(67,149,208,0.7);
+}
+
+.wrap-btn{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-entrar{
+    font-weight: bold;
+    margin-top: 30px; 
+    border: 0;
+    border-radius: 5px;
+    background-color: #164CA4;
+    color: #FFF;
+    height: 50px;
+
+
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;    
+}
+
+.btn-entrar:hover{
+    background-color: #0e3778;
+
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; 
+}
