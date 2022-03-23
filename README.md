@@ -1,11 +1,13 @@
 
 <h3>Aprendizados:</h3>
-- Conhecendo Laravel
-- Trabalho com transaction
-- Unit testing
-- Criando migration para o banco de dados
-- Manipulação do DOM
-
+<ul>
+<li>Conhecendo Laravel</li>
+<li>Trabalho com transaction</li>
+<li>Unit testing</li>
+<li>Criando migration para o banco de dados</li>
+<li>Manipulação do DOM</li>
+</ul>
+    
 <h3>Features:</h3>
 
 - [x] Cadastro de Clientes da empresa, Marcas, Categorias e produtos
