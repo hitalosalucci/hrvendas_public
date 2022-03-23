@@ -1,7 +1,7 @@
 
 <h3>Aprendizados:</h3>
 <ul>
-<li>Conhecendo Laravel</li>
+<li>Reforço nas funcionalidades do Laravel</li>
 <li>Trabalho com transaction</li>
 <li>Unit testing</li>
 <li>Criando migration para o banco de dados</li>
